@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Lora";
+  color: #000000;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 5px solid #000000;
+}
+.navbar h1 {
+  color: #be9ac2;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 40px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #9ccb9b;
+}
+.content {
+  max-width:900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/*previews for post*/
+
+.post-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #f8f2f2;
+}
+.post-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.post-preview h2 {
+  font-size: 20px;
+  color: #be9ac2;
+  margin-bottom: 8px;
+}
+/* post details */
+.post-details h2 {
+  font-size: 20px;
+  color: #be9ac2;
+  margin-bottom: 10px;
+}
+.post-details div {
+  margin: 30px 0;
+}
+.post-details button {
+  background: #be9ac2;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/*Post Forms*/
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #be9ac2;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*Delete Button*/
+.blog-details button {
+  background: #be9ac2;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
